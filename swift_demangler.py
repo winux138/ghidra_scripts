@@ -17,7 +17,7 @@ fns = functionManager.getFunctions(True)
 for f in fns:
     f_name = f.getName()
     # Is it a mangled name?
-    if not f_name.startswith("_$"):
+    if not f_name.startswith("$"):
         continue
 
 
